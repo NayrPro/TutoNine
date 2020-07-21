@@ -1,0 +1,19 @@
+button{
+    /* position: absolute;
+    top: 5.45px;
+    left: 1264px; */
+    height: 88px;
+    width: 88px;
+    border-radius: 62px !important;
+    border: none;
+    background-color: #333;
+    color: #f1f1f1;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    outline: none !important;
+    float: right;
+    margin-top: -22px !important;
+    /* margin-top: 5px !important;
+    margin-left: -5px !important; */
+}
