@@ -2,10 +2,15 @@ import React, {useContext} from 'react'
 import './BtnToggle.css'
 import {ThemeContext} from '../../Context/ThemeContext'
 function BtnToggle() {
-  const {toggleName, theme} = useContext
+  
+  const {toggleTheme, theme} = useContext(ThemeContext)
+
   return (
-    <div>
-      
+    <div
+    onClick={toggleTheme}
+    className={theme ? 'btn-toggle goLight' : 'btn-toggle goDark'}
+    >
+       {theme ? "Dark" : "Light"}
     </div>
   )
 }
